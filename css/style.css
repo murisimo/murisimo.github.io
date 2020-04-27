@@ -1,0 +1,8 @@
+.fondo{background-color: #cbfef1;
+    background-image: linear-gradient(45deg, #cbfef1 0%, #34b857 100%);    
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+}
