@@ -6,3 +6,7 @@
     width: 100px;
     height: 100px;
 }
+
+html{
+    scroll-behavior: smooth;
+}
