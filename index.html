@@ -240,18 +240,21 @@
                     <hr>
                     <p><strong>Node</strong></p>
                     <div class="progress mb-3">
-                        <div class="progress-bar bg-succes progress-bar-striped progress-bar-animated" role="progressbar"
-                            style="width: 12%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar bg-succes progress-bar-striped progress-bar-animated"
+                            role="progressbar" style="width: 12%" aria-valuenow="10" aria-valuemin="0"
+                            aria-valuemax="100"></div>
                     </div>
                     <p><strong>Express</strong></p>
                     <div class="progress mb-3">
-                        <div class="progress-bar bg-succes progress-bar-striped progress-bar-animated" role="progressbar"
-                            style="width: 20%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar bg-succes progress-bar-striped progress-bar-animated"
+                            role="progressbar" style="width: 20%" aria-valuenow="10" aria-valuemin="0"
+                            aria-valuemax="100"></div>
                     </div>
                     <p><strong>MongoDB</strong></p>
                     <div class="progress mb-3">
-                        <div class="progress-bar bg-succes progress-bar-striped progress-bar-animated" role="progressbar"
-                            style="width: 8%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar bg-succes progress-bar-striped progress-bar-animated"
+                            role="progressbar" style="width: 8%" aria-valuenow="10" aria-valuemin="0"
+                            aria-valuemax="100"></div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 mt-3">
@@ -296,9 +299,102 @@
         </article>
         <h2 class="display-4 text-center my-4" id="portfolio">Portfolio</h2>
         <article class="shadow p-3 mb-5 bg-white rounded">
-            <p>Agregar aqui galeria</p>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 p-2 p-0">
+                    <img src="img/Robotica.jpg" class="card-img" alt="Pagina sobre Robotica" data-toggle="modal"
+                        data-target="#modalRobotica">
+                </div>
+                <div class="col-sm-12 col-md-6 p-2 p-0">
+                    <img src="img/Panaderia Cocu.jpg" class="card-img" alt="Pagina sobre la Panaderia Cocu"
+                        data-toggle="modal" data-target="#modalCocu">
+                </div>
+                <div class="col-sm-12 col-md-6 p-2 p-0">
+                    <img src="img/Flexbox.png" class="card-img" alt="Pagina de practica con Flexbox" data-toggle="modal"
+                        data-target="#modalFlexbox">
+                </div>
+                <div class="col-sm-12 col-md-6 p-2 p-0">
+                    <img src="img/Elementos Bootstrap.png" class="card-img" alt="Pagina de practica con Bootstrap"
+                        data-toggle="modal" data-target="#modalBootstrap">
+                </div>
+            </div>
         </article>
     </section>
+    <!-- Modal Robotica -->
+    <div class="modal fade" id="modalRobotica" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/Robotica.jpg" alt="Pagina sobre Robotica" class="w-100">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Panaderia -->
+    <div class="modal fade" id="modalCocu" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/Panaderia Cocu.jpg" alt="Pagina sobre la Panaderia Cocu" class="w-100">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Flexbox-->
+    <div class="modal fade" id="modalFlexbox" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/Flexbox.png" alt="Pagina de practica con Flexbox" class="w-100">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Bootstrap-->
+    <div class="modal fade" id="modalBootstrap" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/Elementos Bootstrap.png" alt="Pagina de practica con Bootstrap" class="w-100">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Footer -->
     <footer class="bg-dark text-light py-4">
