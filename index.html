@@ -1,452 +1,516 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="author" content="Pablo Muro">
-    <meta name="description" content="Curriculum">
-    <meta name="keywords" content="curriculum vitae">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Pablo Muro" />
+    <meta name="description" content="Curriculum" />
+    <meta name="keywords" content="curriculum vitae" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Curriculum Vitae</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/6b281fced2.js" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
-    <link rel="stylesheet" href="css/style.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/6b281fced2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
     <script type="text/javascript">
-        (function () {
-            emailjs.init("user_dj6wNEihE0xEjl1uLqG5n");
-        })();
+      (function () {
+        emailjs.init("user_dj6wNEihE0xEjl1uLqG5n");
+      })();
     </script>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container">
-                <a class="navbar-brand" href="#">Muro Pablo</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">Muro Pablo</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#sobreMi">Sobre mi<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#experienciaLaboral">Experiencia laboral</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#educacion">Educacion</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#portfolio">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contacto">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#sobreMi"
+                  >Sobre mi<span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experienciaLaboral"
+                  >Experiencia laboral</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#educacion">Educacion</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
     <section class="fondo text-center text-dark py-4">
-        <article class="container">
-            <img class="avatar" src="img/pngocean.com(2).png" alt="">
-            <h3>Muro Ezquer, Pablo Sebastian</h3>
-            <p class="lead">Software developer</p>
-        </article>
+      <article class="container">
+        <img class="avatar" src="img/pngocean.com(2).png" alt="" />
+        <h3>Muro Ezquer, Pablo Sebastian</h3>
+        <p class="lead">Software developer</p>
+      </article>
     </section>
     <section class="container">
-        <h2 class="display-4 text-center my-4" id="sobreMi">Sobre mi</h2>
-        <article class="shadow p-3 mb-5 bg-white rounded">
-            <h3 class="text-info">Información personal</h3>
-            <hr>
-            <p><strong>Edad:</strong> 29 años</p>
-            <p><strong>Email:</strong> pmuro16@gmail.com</p>
-            <p><strong>Telefono:</strong> +54 381 6618297</p>
-            <p><strong>Dirección:</strong> Las Piedras 346, San Miguel de Tucumán, Tucumán</p>
-            <hr>
-            <h3 class="text-info">Mi Historia</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id officiis illo iusto voluptates, provident
-                minus voluptatibus assumenda reprehenderit cum! Ipsa error et asperiores itaque suscipit animi, quod
-                corrupti, fuga minima, sit alias soluta quis! Iusto voluptate cupiditate corporis vel deleniti maxime
-                libero soluta voluptatibus mollitia labore sit atque est sapiente consequuntur possimus, aperiam
-                corrupti quam veritatis explicabo? Suscipit debitis nostrum consequatur, quis iste porro expedita labore
-                totam eum consectetur sunt earum exercitationem incidunt fugit beatae cupiditate saepe numquam.
-                Voluptatem voluptas aperiam dignissimos excepturi vel, expedita illo sint quia sequi tempora est
-                necessitatibus dolores! Earum harum repudiandae corporis, eaque libero atque.</p>
-        </article>
-        <h2 class="display-4 text-center my-4" id="experienciaLaboral">Experiencia Laboral</h2>
+      <h2 class="display-4 text-center my-4" id="sobreMi">Sobre mi</h2>
+      <article class="shadow p-3 mb-5 bg-white rounded">
+        <h3 class="text-info">Información personal</h3>
+        <hr />
+        <p><strong>Edad:</strong> 30 años</p>
+        <p><strong>Email:</strong> pmuro16@gmail.com</p>
+        <p><strong>Telefono:</strong> +54 381 6618297</p>
+        <p>
+          <strong>Dirección:</strong> Las Piedras 346, San Miguel de Tucumán,
+          Tucumán
+        </p>
+        <hr />
+      </article>
+      <h2 class="display-4 text-center my-4" id="experienciaLaboral">
+        Experiencia Laboral
+      </h2>
+      <article>
+        <div class="card mb-3 shadow mb-5 bg-white rounded">
+          <div class="row no-gutters">
+            <div
+              class="col-md-4 bg-dark text-light d-flex flex-column justify-content-center align-items-center"
+            >
+              <p class="lead">Fecha desde - Fecha hasta</p>
+              <p class="lead">trabajo</p>
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Puesto de Trabajo 1</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Officia, fugit sed excepturi alias consectetur aliquid,
+                  voluptas non adipisci ut, earum doloribus! Facilis iste quia
+                  fugit!
+                </p>
+                <p>
+                  <strong>Habilidades: </strong>
+                  <span class="badge badge-warning">HTML</span>
+                  <span class="badge badge-warning">CSS3</span>
+                  <span class="badge badge-warning">SASS</span>
+                  <span class="badge badge-warning">MATERIAL</span>
+                  <span class="badge badge-warning">BOOTSTRAP</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3 shadow mb-5 bg-white rounded">
+          <div class="row no-gutters">
+            <div
+              class="col-md-4 bg-dark text-light d-flex flex-column justify-content-center align-items-center"
+            >
+              <p class="lead">Fecha desde - Fecha hasta</p>
+              <p class="lead">Lugar de trabajo</p>
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Puesto de Trabajo 2</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Officia, fugit sed excepturi alias consectetur aliquid,
+                  voluptas non adipisci ut, earum doloribus! Facilis iste quia
+                  fugit!
+                </p>
+                <p>
+                  <strong>Habilidades: </strong>
+                  <span class="badge badge-warning">HTML</span>
+                  <span class="badge badge-warning">CSS3</span>
+                  <span class="badge badge-warning">SASS</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3 shadow mb-5 bg-white rounded">
+          <div class="row no-gutters">
+            <div
+              class="col-md-4 bg-dark text-light d-flex flex-column justify-content-center align-items-center"
+            >
+              <p class="lead">Dicimbre 2016 - Enero 2018</p>
+              <p class="lead">Bunker Indumentaria</p>
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Encargado - vendedor</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Officia, fugit sed excepturi alias consectetur aliquid,
+                  voluptas non adipisci ut, earum doloribus! Facilis iste quia
+                  fugit!
+                </p>
+                <p>
+                  <strong>Habilidades: </strong>
+                  <span class="badge badge-warning">HTML</span>
+                  <span class="badge badge-warning">CSS3</span>
+                  <span class="badge badge-warning">SASS</span>
+                  <span class="badge badge-warning">MATERIAL</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3 shadow mb-5 bg-white rounded">
+          <div class="row no-gutters">
+            <div
+              class="col-md-4 bg-dark text-light d-flex flex-column justify-content-center align-items-center"
+            >
+              <p class="lead">Fecha desde - Fecha hasta</p>
+              <p class="lead">Lugar de trabajo</p>
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Puesto de Trabajo 4</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Officia, fugit sed excepturi alias consectetur aliquid,
+                  voluptas non adipisci ut, earum doloribus! Facilis iste quia
+                  fugit!
+                </p>
+                <p>
+                  <strong>Habilidades: </strong>
+                  <span class="badge badge-warning">HTML</span>
+                  <span class="badge badge-warning">CSS3</span>
+                  <span class="badge badge-warning">BOOTSTRAP</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article>
+        <h2 class="display-4 text-center my-4" id="educacion">Educación</h2>
         <article>
-            <div class="card mb-3 shadow mb-5 bg-white rounded">
-                <div class="row no-gutters">
-                    <div
-                        class="col-md-4 bg-dark text-light  d-flex flex-column justify-content-center align-items-center">
-                        <p class="lead">Fecha desde - Fecha hasta</p>
-                        <p class="lead">Lugar de trabajo</p>
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Puesto de Trabajo 1</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia,
-                                fugit sed excepturi alias consectetur aliquid, voluptas non adipisci ut, earum
-                                doloribus! Facilis iste quia fugit!</p>
-                            <p><strong>Habilidades: </strong>
-                                <span class="badge badge-warning">HTML</span>
-                                <span class="badge badge-warning">CSS3</span>
-                                <span class="badge badge-warning">SASS</span>
-                                <span class="badge badge-warning">MATERIAL</span>
-                                <span class="badge badge-warning">BOOTSTRAP</span></p>
-                        </div>
-                    </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-4">
+              <div class="card shadow mb-5 bg-white rounded">
+                <div class="bg-dark text-light text-center">
+                  <p class="lead mt-3 text-center">1994 - 2002</p>
+                  <p class="lead">Escuela Normal "Juan Bautista Alberdi</p>
                 </div>
-            </div>
-            <div class="card mb-3 shadow mb-5 bg-white rounded">
-                <div class="row no-gutters">
-                    <div
-                        class="col-md-4 bg-dark text-light  d-flex flex-column justify-content-center align-items-center">
-                        <p class="lead">Fecha desde - Fecha hasta</p>
-                        <p class="lead">Lugar de trabajo</p>
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Puesto de Trabajo 2</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia,
-                                fugit sed excepturi alias consectetur aliquid, voluptas non adipisci ut, earum
-                                doloribus! Facilis iste quia fugit!</p>
-                            <p><strong>Habilidades: </strong>
-                                <span class="badge badge-warning">HTML</span>
-                                <span class="badge badge-warning">CSS3</span>
-                                <span class="badge badge-warning">SASS</span>
-                        </div>
-                    </div>
+                <div class="card-body">
+                  <h5 class="card-title">Primario</h5>
+                  <p class="card-text">----</p>
+                  <p><strong>Estado: </strong>Completo</p>
                 </div>
+              </div>
             </div>
-            <div class="card mb-3 shadow mb-5 bg-white rounded">
-                <div class="row no-gutters">
-                    <div
-                        class="col-md-4 bg-dark text-light  d-flex flex-column justify-content-center align-items-center">
-                        <p class="lead">Fecha desde - Fecha hasta</p>
-                        <p class="lead">Lugar de trabajo</p>
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Puesto de Trabajo 3</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia,
-                                fugit sed excepturi alias consectetur aliquid, voluptas non adipisci ut, earum
-                                doloribus! Facilis iste quia fugit!</p>
-                            <p><strong>Habilidades: </strong>
-                                <span class="badge badge-warning">HTML</span>
-                                <span class="badge badge-warning">CSS3</span>
-                                <span class="badge badge-warning">SASS</span>
-                                <span class="badge badge-warning">MATERIAL</span>
-                        </div>
-                    </div>
+            <div class="col-sm-12 col-md-4">
+              <div class="card shadow mb-5 bg-white rounded">
+                <div class="bg-dark text-light text-center">
+                  <p class="lead mt-3 text-center">2003 - 2009</p>
+                  <p class="lead">Escuela Normal "Juan Bautista Alberdi"</p>
                 </div>
-            </div>
-            <div class="card mb-3 shadow mb-5 bg-white rounded">
-                <div class="row no-gutters">
-                    <div
-                        class="col-md-4 bg-dark text-light  d-flex flex-column justify-content-center align-items-center">
-                        <p class="lead">Fecha desde - Fecha hasta</p>
-                        <p class="lead">Lugar de trabajo</p>
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Puesto de Trabajo 4</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia,
-                                fugit sed excepturi alias consectetur aliquid, voluptas non adipisci ut, earum
-                                doloribus! Facilis iste quia fugit!</p>
-                            <p><strong>Habilidades: </strong>
-                                <span class="badge badge-warning">HTML</span>
-                                <span class="badge badge-warning">CSS3</span>
-                                <span class="badge badge-warning">BOOTSTRAP</span></p>
-                        </div>
-                    </div>
+                <div class="card-body">
+                  <h5 class="card-title">Secundario</h5>
+                  <p class="card-text">
+                    Secundario completado con bachiller superior en lenguas
+                    vivas
+                  </p>
+                  <p><strong>Estado: </strong>Completo</p>
                 </div>
+              </div>
             </div>
+            <div class="col-sm-12 col-md-4">
+              <div class="card shadow mb-5 bg-white rounded">
+                <div class="bg-dark text-light text-center">
+                  <p class="lead mt-3 text-center">2014 - 2016</p>
+                  <p class="lead">Factultad de Bellas Artes</p>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Tecnico Superior en Sonorizacion</h5>
+                  <p class="card-text">Cursado hasta ultimo año.</p>
+                  <p><strong>Estado: </strong>Incompleto</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </article>
-        <article>
-            <h2 class="display-4 text-center my-4" id="educacion">Educación</h2>
-            <article>
-                <div class="row">
-                    <div class="col-sm-12 col-md-4">
-                        <div class="card shadow mb-5 bg-white rounded">
-                            <div class="bg-dark text-light text-center ">
-                                <p class="lead mt-3 text-center">1994 - 2002</p>
-                                <p class="lead">Escuela Normal "Juan Bautista Alberdi</p>
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Primario</h5>
-                                <p class="card-text">----</p>
-                                <p><strong>Estado: </strong>Completo</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4">
-                        <div class="card shadow mb-5 bg-white rounded">
-                            <div class="bg-dark text-light text-center ">
-                                <p class="lead mt-3 text-center">2003 - 2009</p>
-                                <p class="lead">Escuela Normal "Juan Bautista Alberdi"</p>
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Secundario</h5>
-                                <p class="card-text">Secundario completado con bachiller superior en lenguas vivas</p>
-                                <p><strong>Estado: </strong>Completo</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4">
-                        <div class="card shadow mb-5 bg-white rounded">
-                            <div class="bg-dark text-light text-center ">
-                                <p class="lead mt-3 text-center">2014 - 2016</p>
-                                <p class="lead">Factultad de Bellas Artes</p>
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Tecnico Superior en Sonorizacion</h5>
-                                <p class="card-text">Cursado hasta ultimo año.</p>
-                                <p><strong>Estado: </strong>Incompleto</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </article>
-        </article>
-        <h2 class="display-4 text-center my-4" id="habilidades">Habilidades</h2>
-        <article class="shadow p-3 mb-5 bg-white rounded">
-            <div class="row">
-                <div class="col-sm-12 col-md-6">
-                    <h3>Front-End</h3>
-                    <hr>
-                    <p><strong>HTML</strong></p>
-                    <div class="progress mb-3">
-                        <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar"
-                            style="width: 80%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <p><strong>CSS</strong></p>
-                    <div class="progress mb-3">
-                        <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar"
-                            style="width: 65%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <p class="mt-3"><strong>BOOTSTRAP</strong></p>
-                    <div class="progress mb-3">
-                        <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar"
-                            style="width: 75%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6">
-                    <h3>Back-End</h3>
-                    <hr>
-                    <p><strong>Node</strong></p>
-                    <div class="progress mb-3">
-                        <div class="progress-bar bg-succes progress-bar-striped progress-bar-animated"
-                            role="progressbar" style="width: 12%" aria-valuenow="10" aria-valuemin="0"
-                            aria-valuemax="100"></div>
-                    </div>
-                    <p><strong>Express</strong></p>
-                    <div class="progress mb-3">
-                        <div class="progress-bar bg-succes progress-bar-striped progress-bar-animated"
-                            role="progressbar" style="width: 20%" aria-valuenow="10" aria-valuemin="0"
-                            aria-valuemax="100"></div>
-                    </div>
-                    <p><strong>MongoDB</strong></p>
-                    <div class="progress mb-3">
-                        <div class="progress-bar bg-succes progress-bar-striped progress-bar-animated"
-                            role="progressbar" style="width: 8%" aria-valuenow="10" aria-valuemin="0"
-                            aria-valuemax="100"></div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6 mt-3">
-                    <h3>Herramientas</h3>
-                    <hr>
-                    <p><strong>Github</strong></p>
-                    <div class="progress mb-3">
-                        <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar"
-                            style="width: 65%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <p><strong>Trello</strong></p>
-                    <div class="progress mb-3">
-                        <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar"
-                            style="width: 72%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6 mt-3">
-                    <h3>Back-End</h3>
-                    <hr>
-                    <p><strong>HTML</strong></p>
-                    <div class="progress mb-3">
-                        <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar"
-                            style="width: 80%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <p><strong>CSS</strong></p>
-                    <div class="progress mb-3">
-                        <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar"
-                            style="width: 65%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <p><strong>BOOTSTRAP</strong></p>
-                    <div class="progress mb-3">
-                        <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar"
-                            style="width: 75%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                </div>
+      </article>
+      <h2 class="display-4 text-center my-4" id="habilidades">Habilidades</h2>
+      <article class="shadow p-3 mb-5 bg-white rounded">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h3>Front-End</h3>
+            <hr />
+            <p><strong>HTML</strong></p>
+            <div class="progress mb-3">
+              <div
+                class="progress-bar bg-info progress-bar-striped progress-bar-animated"
+                role="progressbar"
+                style="width: 80%"
+                aria-valuenow="10"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
             </div>
-        </article>
-        <h2 class="display-4 text-center my-4" id="portfolio">Portfolio</h2>
-        <article class="shadow p-3 mb-5 bg-white rounded">
-            <div class="row">
-                <div class="col-sm-12 col-md-6 p-2 p-0">
-                    <img src="img/Robotica.jpg" class="card-img" alt="Pagina sobre Robotica" data-toggle="modal"
-                        data-target="#modalRobotica">
-                </div>
-                <div class="col-sm-12 col-md-6 p-2 p-0">
-                    <img src="img/Panaderia Cocu.jpg" class="card-img" alt="Pagina sobre la Panaderia Cocu"
-                        data-toggle="modal" data-target="#modalCocu">
-                </div>
-                <div class="col-sm-12 col-md-6 p-2 p-0">
-                    <img src="img/Flexbox.png" class="card-img" alt="Pagina de practica con Flexbox" data-toggle="modal"
-                        data-target="#modalFlexbox">
-                </div>
-                <div class="col-sm-12 col-md-6 p-2 p-0">
-                    <img src="img/Elementos Bootstrap.png" class="card-img" alt="Pagina de practica con Bootstrap"
-                        data-toggle="modal" data-target="#modalBootstrap">
-                </div>
+            <p><strong>CSS</strong></p>
+            <div class="progress mb-3">
+              <div
+                class="progress-bar bg-info progress-bar-striped progress-bar-animated"
+                role="progressbar"
+                style="width: 65%"
+                aria-valuenow="10"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
             </div>
-        </article>
-        <h2 class="display-4 text-center my-4" id="contacto">Contacto</h2>
-        <article class="shadow p-3 mb-5 bg-white rounded">
-            <h3 class="text-center text-info">Podes mandarme cualquier consulta por acá</h3>
-            <form onsubmit="validarGeneral(event)">
-                <div class="form-group">
-                    <label for="exampleFormControlInput1" class="font-weight-bolder">Nombre y Apellido</label>
-                    <input type="text" class="form-control" id="inpNombre" placeholder="Juan Perez" onblur="campoRequerido(this)">
-                    <div class="invalid-feedback">
-                        Ingrese su Nombre y Apellido
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="exampleFormControlInput1" class="font-weight-bolder">Email</label>
-                    <input type="email" class="form-control" id="inpEmail"
-                        placeholder="juanperez@gmail.com" onblur="validarMail(this)">
-                        <div class="invalid-feedback">
-                            Ingrese un Email valido
-                        </div>
-                </div>
-                <div class="form-group">
-                    <label for="exampleFormControlTextarea1" class="font-weight-bolder">Consulta</label>
-                    <textarea class="form-control" id="inpConsulta"
-                        placeholder="Aqui escribi tu consulta" onblur="validarConsulta(this)" rows="3"></textarea>
-                        <div class="invalid-feedback">
-                            Ingrese una consulta de 10 caracteres minimo
-                        </div>
-                </div>
-                <button type="submit" class="btn btn-info">Enviar</button>
-            </form>
-        </article>
+            <p class="mt-3"><strong>BOOTSTRAP</strong></p>
+            <div class="progress mb-3">
+              <div
+                class="progress-bar bg-info progress-bar-striped progress-bar-animated"
+                role="progressbar"
+                style="width: 80%"
+                aria-valuenow="10"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <h3>Back-End</h3>
+            <hr />
+            <p><strong>Node</strong></p>
+            <div class="progress mb-3">
+              <div
+                class="progress-bar bg-succes progress-bar-striped progress-bar-animated"
+                role="progressbar"
+                style="width: 85%"
+                aria-valuenow="10"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+            <p><strong>Express</strong></p>
+            <div class="progress mb-3">
+              <div
+                class="progress-bar bg-succes progress-bar-striped progress-bar-animated"
+                role="progressbar"
+                style="width: 75%"
+                aria-valuenow="10"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+            <p><strong>MongoDB</strong></p>
+            <div class="progress mb-3">
+              <div
+                class="progress-bar bg-succes progress-bar-striped progress-bar-animated"
+                role="progressbar"
+                style="width: 80%"
+                aria-valuenow="10"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 mt-3">
+            <h3>Herramientas</h3>
+            <hr />
+            <p><strong>Github</strong></p>
+            <div class="progress mb-3">
+              <div
+                class="progress-bar bg-warning progress-bar-striped progress-bar-animated"
+                role="progressbar"
+                style="width: 75%"
+                aria-valuenow="10"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+            <p><strong>GitLab</strong></p>
+            <div class="progress mb-3">
+              <div
+                class="progress-bar bg-warning progress-bar-striped progress-bar-animated"
+                role="progressbar"
+                style="width: 75%"
+                aria-valuenow="10"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+            <p><strong>Trello</strong></p>
+            <div class="progress mb-3">
+              <div
+                class="progress-bar bg-warning progress-bar-striped progress-bar-animated"
+                role="progressbar"
+                style="width: 72%"
+                aria-valuenow="10"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 mt-3">
+            <h3>Otros</h3>
+            <hr />
+            <p><strong>React</strong></p>
+            <div class="progress mb-3">
+              <div
+                class="progress-bar bg-info progress-bar-striped progress-bar-animated"
+                role="progressbar"
+                style="width: 80%"
+                aria-valuenow="10"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <h2 class="display-4 text-center my-4" id="portfolio">Portfolio</h2>
+      <article class="shadow p-3 mb-5 bg-white rounded">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 p-2 p-0">
+            <a href="https://robotica-g2-c3.netlify.app/"
+              ><img
+                src="img/Robotica.jpg"
+                class="card-img"
+                alt="Pagina sobre Robotica"
+                data-toggle="modal"
+                data-target="#modalRobotica"
+            /></a>
+          </div>
+          <div class="col-sm-12 col-md-6 p-2 p-0">
+            <a href="https://panaderiacocu-c3a.netlify.app/"
+              ><img
+                src="img/Panaderia Cocu.jpg"
+                class="card-img"
+                alt="Pagina sobre la Panaderia Cocu"
+                data-toggle="modal"
+                data-target="#modalCocu"
+            /></a>
+          </div>
+          <div class="col-sm-12 col-md-6 p-2 p-0">
+            <a href="https://gamex-c3a.netlify.app/"
+              ><img
+                src="img/gamex.png"
+                class="card-img"
+                alt="Pagina de practica con Flexbox"
+                data-toggle="modal"
+                data-target="#modalFlexbox"
+            /></a>
+          </div>
+        </div>
+      </article>
+      <h2 class="display-4 text-center my-4" id="contacto">Contacto</h2>
+      <article class="shadow p-3 mb-5 bg-white rounded">
+        <h3 class="text-center text-info">
+          Podes mandarme cualquier consulta por acá
+        </h3>
+        <form onsubmit="validarGeneral(event)">
+          <div class="form-group">
+            <label for="exampleFormControlInput1" class="font-weight-bolder"
+              >Nombre y Apellido</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="inpNombre"
+              placeholder="Juan Perez"
+              onblur="campoRequerido(this)"
+            />
+            <div class="invalid-feedback">Ingrese su Nombre y Apellido</div>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlInput1" class="font-weight-bolder"
+              >Email</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="inpEmail"
+              placeholder="juanperez@gmail.com"
+              onblur="validarMail(this)"
+            />
+            <div class="invalid-feedback">Ingrese un Email valido</div>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1" class="font-weight-bolder"
+              >Consulta</label
+            >
+            <textarea
+              class="form-control"
+              id="inpConsulta"
+              placeholder="Aqui escribi tu consulta"
+              onblur="validarConsulta(this)"
+              rows="3"
+            ></textarea>
+            <div class="invalid-feedback">
+              Ingrese una consulta de 10 caracteres minimo
+            </div>
+          </div>
+          <button type="submit" class="btn btn-info">Enviar</button>
+        </form>
+      </article>
     </section>
-    <!-- Modal Robotica -->
-    <div class="modal fade" id="modalRobotica" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-xl" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <img src="img/Robotica.jpg" alt="Pagina sobre Robotica" class="w-100">
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Modal Panaderia -->
-    <div class="modal fade" id="modalCocu" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-xl" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <img src="img/Panaderia Cocu.jpg" alt="Pagina sobre la Panaderia Cocu" class="w-100">
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Modal Flexbox-->
-    <div class="modal fade" id="modalFlexbox" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-xl" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <img src="img/Flexbox.png" alt="Pagina de practica con Flexbox" class="w-100">
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Modal Bootstrap-->
-    <div class="modal fade" id="modalBootstrap" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-xl" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <img src="img/Elementos Bootstrap.png" alt="Pagina de practica con Bootstrap" class="w-100">
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!-- Footer -->
     <footer class="bg-dark text-light py-4">
-        <div class="container text-center">
-            <i class="fab fa-github-square fa-3x mr-2"></i>
-            <i class="fab fa-linkedin fa-3x"></i>
-            <p class="lead mt-2">Muro Pablo</p>
-            <p>&copy;Todos los derechos reservados</p>
-        </div>
+      <div class="container text-center">
+        <a href="https://www.linkedin.com/in/pablo-muro-6079811aa/"
+          ><i class="fab fa-linkedin fa-3x"></i
+        ></a>
+        <a href="https://github.com/murisimo"
+          ><i class="fab fa-github-square fa-3x mr-2"></i
+        ></a>
+        <a href="https://gitlab.com/murisimo"
+          ><i class="fab fa-gitlab fa-3x mr-2"></i
+        ></a>
+        <p class="lead mt-2">Muro Pablo</p>
+        <p>&copy;Todos los derechos reservados</p>
+      </div>
     </footer>
     <!-- script -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/eventos.js"></script>
-</body>
-
+  </body>
 </html>
